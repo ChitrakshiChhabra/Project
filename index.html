@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+
+<section style="text-align:left; padding-top:3%; padding-left: 1%; color: snow; background-image: url(https://www.teahub.io/photos/full/220-2208960_dark-blue-lines-4k-material-design-creative-geometric.jpg); background-repeat: no-repeat; background-attachment: fixed;
+background-size: cover;">
+    <h1><b>IDENTITY</b></h1>
+    <br>
+    <h4>Authentication approval on go with Entity</h3>
+    <br>
+    <h5>Upload PAN Card</h5>
+    <h5>Verify Name</h5>
+    <h5>Verify Face</h5>
+    <br>
+    <br>
+    <br>
+    <br>
+</section>
+
+
+<div class="container h-80">
+    <div class="row align-items-center h-100">
+        <div class="col-3 mx-auto">
+            <div class="text-center">
+                <p id="profile-name" class="profile-name-card"></p>
+                <form action="/" method="post" class="form-signin" enctype = "multipart/form-data">
+                    <input type="text" name="personFName" id="inputFName" class=" form-control form-group" placeholder="Enter First Name        " required autofocus>
+                    <input type="text" name="personLName" id="inputLName" class="form-control form-group" placeholder="Enter Last Name         " required autofocus>
+                    <input type="id" name="panId" id="inputId" class="form-control form-group" placeholder="Enter Pan Number       " required autofocus>
+                    <input type="file" name = "imgfile" id="inputFile" class=" form-group" placeholder="Upload a file" accept=".jpeg" >
+                    <button class="btn btn-lg btn-primary btn-block btn-signin"  type="submit">Enter</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+{% endblock %}
