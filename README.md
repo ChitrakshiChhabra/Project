@@ -4,7 +4,8 @@
 
               In this prototype, the Pan Card belong to a particular individual 
               and for its use cases, it is advised to replace that pan card in the 
-              file section from the new one for testing with the same file name.
+              file section from the new one and also update its path for testing 
+              with proper file address and name.
               
               * supported file format is -> .jpeg
               
